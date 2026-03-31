@@ -54,6 +54,10 @@ const Gallery = () => {
               alt={img.alt}
               className="w-full h-full object-cover"
               loading="lazy"
+              onError={(e) => {
+                e.currentTarget.src =
+                  'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=80';
+              }}
             />
             <div className="absolute inset-0 bg-forest-900/0 group-hover:bg-forest-900/50 transition-colors duration-500 flex items-end p-5">
               <span className="text-cream-100 font-mono text-[10px] tracking-widest uppercase opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300">

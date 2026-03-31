@@ -64,6 +64,7 @@ export const PRICING = [
     subtitle: "For the modern gentleman",
     price: 85,
     featured: false,
+    image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80",
     services: [
       "Classic Haircut",
       "Hot Towel Finish",
@@ -77,6 +78,7 @@ export const PRICING = [
     subtitle: "Our most popular experience",
     price: 150,
     featured: true,
+    image: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=600&q=80",
     services: [
       "Premium Haircut",
       "Beard Sculpting",
@@ -91,6 +93,7 @@ export const PRICING = [
     subtitle: "The ultimate indulgence",
     price: 250,
     featured: false,
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=600&q=80",
     services: [
       "Master Barber Service",
       "Full Grooming Package",
@@ -136,37 +139,37 @@ export const TESTIMONIALS = [
 export const GALLERY_IMAGES = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=700&q=80",
+    src: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=80",
     alt: "Classic barbershop cut",
     cls: "row-span-2",
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=700&q=80",
+    src: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=700&q=80",
     alt: "Straight razor shave",
     cls: "",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=700&q=80",
+    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=700&q=80",
     alt: "Beard grooming",
     cls: "",
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=700&q=80",
+    src: "https://images.unsplash.com/photo-1512864084360-7c0c4d0a0ec7?auto=format&fit=crop&w=700&q=80",
     alt: "Barbershop interior",
     cls: "",
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=700&q=80",
+    src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=700&q=80",
     alt: "Hair styling",
     cls: "row-span-2",
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1593702288056-f5834cfbd0fe?w=700&q=80",
+    src: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=700&q=80",
     alt: "Premium barber tools",
     cls: "",
   },
