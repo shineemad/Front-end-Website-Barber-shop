@@ -71,7 +71,7 @@ The design language is:
 
 ## 🌐 Live Demo
 
-> 🔗 **<a href="[baronbarbershop.vercel.app](https://baronbarbershop.vercel.app/)">live demo here</a>**
+> 🔗 **<a href="(https://baronbarbershop.vercel.app/)">live demo here</a>**
 >
 
 ---
