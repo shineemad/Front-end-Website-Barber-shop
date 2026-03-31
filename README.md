@@ -71,7 +71,7 @@ The design language is:
 
 ## 🌐 Live Demo
 
-> 🔗 **[baronbarbershop.vercel.app)**
+> 🔗 **<a href="baronbarbershop.vercel.app">live demo here</a>**
 >
 > _(Replace this URL with your actual deployment link after deploying)_
 
