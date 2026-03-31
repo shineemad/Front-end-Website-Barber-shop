@@ -22,7 +22,7 @@
 <br /><br />
 
   <!-- 🔗 LIVE DEMO LINK — replace the URL below after deploying -->
-  <a href="https://your-deploy-url-here.vercel.app" target="_blank">
+  <a href="baronbarbershop.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/🌐  Live%20Demo-Visit%20Site-C9A84C?style=for-the-badge&labelColor=0B1F14" alt="Live Demo" />
   </a>
 
@@ -71,7 +71,7 @@ The design language is:
 
 ## 🌐 Live Demo
 
-> 🔗 **[https://your-deploy-url-here.vercel.app](https://your-deploy-url-here.vercel.app)**
+> 🔗 **[baronbarbershop.vercel.app)**
 >
 > _(Replace this URL with your actual deployment link after deploying)_
 
