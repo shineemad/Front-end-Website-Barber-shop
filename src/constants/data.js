@@ -64,7 +64,7 @@ export const PRICING = [
     subtitle: "For the modern gentleman",
     price: 85,
     featured: false,
-    image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=85",
     services: [
       "Classic Haircut",
       "Hot Towel Finish",
@@ -78,7 +78,7 @@ export const PRICING = [
     subtitle: "Our most popular experience",
     price: 150,
     featured: true,
-    image: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=700&q=85",
     services: [
       "Premium Haircut",
       "Beard Sculpting",
@@ -93,7 +93,7 @@ export const PRICING = [
     subtitle: "The ultimate indulgence",
     price: 250,
     featured: false,
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=700&q=85",
     services: [
       "Master Barber Service",
       "Full Grooming Package",
