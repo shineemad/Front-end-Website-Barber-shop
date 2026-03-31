@@ -97,6 +97,7 @@ const About = () => {
             className="ab-img-wrap relative overflow-hidden"
             style={{ clipPath: "polygon(0 0,100% 0,100% 100%,0 100%)" }}
           >
+            {/* 🖼️ GANTI GAMBAR — About Section (foto interior barbershop, 900px lebar) */}
             <img
               src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=900&q=80"
               alt="Inside Baron's Barbershop"

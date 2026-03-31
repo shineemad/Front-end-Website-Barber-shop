@@ -57,6 +57,10 @@ export const SERVICES = [
   },
 ];
 
+// ─────────────────────────────────────────────────────────────────────────────
+// 🖼️ GANTI GAMBAR — Pricing Cards (3 gambar, tampil sebagai header kartu)
+//    Ukuran ideal: 700px lebar, rasio 4:3 atau 16:9
+// ─────────────────────────────────────────────────────────────────────────────
 export const PRICING = [
   {
     id: 1,
@@ -64,7 +68,7 @@ export const PRICING = [
     subtitle: "For the modern gentleman",
     price: 85,
     featured: false,
-    image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=85",
+    image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=85", // 🖼️ Pricing Card 1 — Essential
     services: [
       "Classic Haircut",
       "Hot Towel Finish",
@@ -78,7 +82,7 @@ export const PRICING = [
     subtitle: "Our most popular experience",
     price: 150,
     featured: true,
-    image: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=700&q=85",
+    image: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=700&q=85", // 🖼️ Pricing Card 2 — Signature
     services: [
       "Premium Haircut",
       "Beard Sculpting",
@@ -93,7 +97,7 @@ export const PRICING = [
     subtitle: "The ultimate indulgence",
     price: 250,
     featured: false,
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=700&q=85",
+    image: "https://images.unsplash.com/photo-1596728325488-58c87691e9af?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // 🖼️ Pricing Card 3 — Royal
     services: [
       "Master Barber Service",
       "Full Grooming Package",
@@ -136,40 +140,44 @@ export const TESTIMONIALS = [
   },
 ];
 
+// ─────────────────────────────────────────────────────────────────────────────
+// 🖼️ GANTI GAMBAR — Gallery (6 gambar, tampil di Horizontal Scroll Gallery)
+//    Ukuran ideal: 700px lebar, rasio bebas (otomatis crop)
+// ─────────────────────────────────────────────────────────────────────────────
 export const GALLERY_IMAGES = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=80",
+    src: "https://unsplash.com/photos/man-in-black-shirt-with-tattoo-on-his-left-arm-1Pmp9uxK8X8", // 🖼️ Gallery 1
     alt: "Classic barbershop cut",
     cls: "row-span-2",
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=700&q=80",
+    src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // 🖼️ Gallery 2
     alt: "Straight razor shave",
     cls: "",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=700&q=80",
+    src: "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // 🖼️ Gallery 3
     alt: "Beard grooming",
     cls: "",
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1512864084360-7c0c4d0a0ec7?auto=format&fit=crop&w=700&q=80",
+    src: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // 🖼️ Gallery 4
     alt: "Barbershop interior",
     cls: "",
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=700&q=80",
+    src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // 🖼️ Gallery 5
     alt: "Hair styling",
     cls: "row-span-2",
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=700&q=80",
+    src: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // 🖼️ Gallery 6
     alt: "Premium barber tools",
     cls: "",
   },

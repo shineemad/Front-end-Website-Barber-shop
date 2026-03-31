@@ -68,3 +68,56 @@
     transform: translateX(-50%);
   }
 }
+
+/* ─── Entrance Animation — FOUC Prevention ───────────────────────────────────
+ *
+ * ALL hero elements that GSAP will animate start as visibility:hidden via CSS.
+ *
+ * WHY CSS and not inline style={{ visibility:'hidden' }} in JSX?
+ * Because React manages inline styles as part of its Virtual DOM. When App
+ * re-renders (e.g., after setPreloaderDone(true)), React re-applies ALL JSX
+ * props including inline styles — overriding GSAP's visibility:visible changes.
+ *
+ * CSS rules are NOT managed by React's VDOM. GSAP writes its overrides as
+ * inline style (highest specificity), which persists across React re-renders.
+ *
+ * Managed classes:
+ *   .hero-char          — individual H1 character spans (char reveal)
+ *   .hero-reveal        — eyebrow, subtitle, CTAs, scroll indicator
+ *   .hero-bg-img        — parallax background image wrapper
+ *   .hero-left-line     — left decorative vertical line
+ *   .hero-scroll-track  — the scroll indicator container
+ *   .hero-marquee-peek  — gold strip teaser at bottom edge
+ *   .hero-deco-float    — floating accent lines (mouse parallax)
+ * ─────────────────────────────────────────────────────────────────────────── */
+.hero-char,
+.hero-reveal,
+.hero-bg-img,
+.hero-left-line,
+.hero-scroll-track,
+.hero-marquee-peek,
+.hero-deco-float {
+  visibility: hidden;
+}
+
+/* Preloader counter — tabular numerals prevent layout shift as digits change */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* Scroll track: scanning dot animation ──────────────────────────────────────
+   The dot slides from top to bottom and repeats, creating a "look down" cue.
+   Defined in CSS so it loops without GSAP overhead (zero JS per frame). */
+@keyframes scrollScan {
+  0%   { transform: translateY(-100%); opacity: 0; }
+  15%  { opacity: 1; }
+  85%  { opacity: 1; }
+  100% { transform: translateY(400%); opacity: 0; }
+}
+
+.hero-scroll-dot {
+  animation: scrollScan 1.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  animation-play-state: paused; /* started by GSAP after preloader */
+}
+

@@ -77,6 +77,7 @@ const Booking = () => {
     >
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none">
+        {/* 🖼️ GANTI GAMBAR — Booking Section Background (foto suasana, 1920px lebar, opacity sangat tipis) */}
         <img
           src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1920&q=80"
           alt=""
