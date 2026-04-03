@@ -37,7 +37,7 @@
 > _Screenshots / GIF of the site go here — replace the placeholder below_
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&q=80" alt="Baron's Barbershop Preview" width="100%" style="border-radius:8px;" />
+  <img src="1.png" alt="Baron's Barbershop Preview" width="100%" style="border-radius:8px;" />
 </div>
 
 ---
