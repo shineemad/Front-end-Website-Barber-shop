@@ -34,7 +34,6 @@
 
 ## 📸 Preview
 
-> _Screenshots / GIF of the site go here — replace the placeholder below_
 
 <div align="center">
   <img src="1.png" alt="Baron's Barbershop Preview" width="100%" style="border-radius:8px;" />
